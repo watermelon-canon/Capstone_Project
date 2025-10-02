@@ -1,0 +1,184 @@
+[
+  {
+    "course_id": "CS101",
+    "title": "Introduction to Programming",
+    "description": "Fundamental programming concepts using Python. Topics include variables, control structures, functions, lists, dictionaries, and basic algorithms. Students will develop problem-solving skills and learn to write, debug, and test programs. Prerequisites: None. 3 credit hours.",
+    "credits": 3,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Write programs using Python programming language",
+      "Apply programming concepts to solve computational problems",
+      "Debug and test software programs",
+      "Understand basic data structures and algorithms"
+    ],
+    "level": "undergraduate",
+    "domain": "computer_science"
+  },
+  {
+    "course_id": "CS102",
+    "title": "Data Structures and Algorithms",
+    "description": "Study of fundamental data structures including arrays, linked lists, stacks, queues, trees, and hash tables. Analysis of algorithm complexity and design techniques. Implementation in Java. Prerequisites: CS101. 4 credit hours.",
+    "credits": 4,
+    "prerequisites": [
+      "CS101"
+    ],
+    "learning_outcomes": [
+      "Implement fundamental data structures",
+      "Analyze algorithm time and space complexity",
+      "Design efficient algorithms for common problems",
+      "Choose appropriate data structures for specific applications"
+    ],
+    "level": "undergraduate",
+    "domain": "computer_science"
+  },
+  {
+    "course_id": "CS301",
+    "title": "Database Systems",
+    "description": "Design and implementation of database systems. Relational model, SQL, normalization, transactions, and concurrent access. Introduction to NoSQL databases and distributed systems. Prerequisites: CS102. 3 credit hours.",
+    "credits": 3,
+    "prerequisites": [
+      "CS102"
+    ],
+    "learning_outcomes": [
+      "Design relational database schemas",
+      "Write complex SQL queries",
+      "Understand database normalization principles",
+      "Implement database applications"
+    ],
+    "level": "undergraduate",
+    "domain": "computer_science"
+  },
+  {
+    "course_id": "CS401",
+    "title": "Machine Learning",
+    "description": "Introduction to machine learning algorithms and applications. Supervised and unsupervised learning, neural networks, deep learning, and model evaluation. Hands-on projects using Python and scikit-learn. Prerequisites: CS102, MATH201, STAT200. 4 credit hours.",
+    "credits": 4,
+    "prerequisites": [
+      "CS102",
+      "MATH201",
+      "STAT200"
+    ],
+    "learning_outcomes": [
+      "Apply machine learning algorithms to real-world problems",
+      "Evaluate and compare different learning models",
+      "Implement neural networks and deep learning systems",
+      "Understand statistical foundations of machine learning"
+    ],
+    "level": "undergraduate",
+    "domain": "computer_science"
+  },
+  {
+    "course_id": "MATH101",
+    "title": "College Algebra",
+    "description": "Review of algebraic concepts including polynomials, rational functions, exponential and logarithmic functions. Systems of equations and inequalities. Prerequisite: High school algebra or placement test. 3 credit hours.",
+    "credits": 3,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Solve polynomial and rational equations",
+      "Work with exponential and logarithmic functions",
+      "Solve systems of linear equations",
+      "Apply algebraic concepts to word problems"
+    ],
+    "level": "undergraduate",
+    "domain": "mathematics"
+  },
+  {
+    "course_id": "MATH201",
+    "title": "Calculus I",
+    "description": "Differential calculus of functions of one variable. Limits, continuity, derivatives, and applications including optimization and related rates. Introduction to integration. Prerequisites: MATH101 or equivalent. 4 credit hours.",
+    "credits": 4,
+    "prerequisites": [
+      "MATH101"
+    ],
+    "learning_outcomes": [
+      "Calculate limits and determine continuity",
+      "Compute derivatives using various techniques",
+      "Apply derivatives to solve optimization problems",
+      "Understand the relationship between derivatives and integrals"
+    ],
+    "level": "undergraduate",
+    "domain": "mathematics"
+  },
+  {
+    "course_id": "MATH202",
+    "title": "Calculus II",
+    "description": "Integral calculus and infinite series. Techniques of integration, applications of integrals, parametric equations, polar coordinates, and convergence tests for series. Prerequisites: MATH201. 4 credit hours.",
+    "credits": 4,
+    "prerequisites": [
+      "MATH201"
+    ],
+    "learning_outcomes": [
+      "Master various techniques of integration",
+      "Apply integrals to solve geometric and physical problems",
+      "Work with parametric and polar coordinate systems",
+      "Analyze convergence of infinite series"
+    ],
+    "level": "undergraduate",
+    "domain": "mathematics"
+  },
+  {
+    "course_id": "BUS101",
+    "title": "Introduction to Business",
+    "description": "Overview of business principles including management, marketing, finance, and operations. Introduction to entrepreneurship and business ethics. Case studies of successful businesses. No prerequisites. 3 credit hours.",
+    "credits": 3,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Understand fundamental business concepts",
+      "Analyze business case studies",
+      "Evaluate ethical considerations in business decisions",
+      "Identify entrepreneurial opportunities"
+    ],
+    "level": "undergraduate",
+    "domain": "business"
+  },
+  {
+    "course_id": "BUS201",
+    "title": "Financial Accounting",
+    "description": "Principles of financial accounting including the accounting cycle, financial statements, and analysis techniques. Emphasis on recording, summarizing, and interpreting financial data. Prerequisites: BUS101. 3 credit hours.",
+    "credits": 3,
+    "prerequisites": [
+      "BUS101"
+    ],
+    "learning_outcomes": [
+      "Prepare basic financial statements",
+      "Understand the accounting cycle",
+      "Analyze financial performance using ratios",
+      "Apply generally accepted accounting principles"
+    ],
+    "level": "undergraduate",
+    "domain": "business"
+  },
+  {
+    "course_id": "PSYC101",
+    "title": "General Psychology",
+    "description": "Introduction to psychological science covering behavior, cognition, development, personality, and mental health. Research methods and statistical analysis in psychology. No prerequisites. 3 credit hours.",
+    "credits": 3,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Understand major psychological theories and concepts",
+      "Evaluate psychological research methods",
+      "Apply psychological principles to real-world situations",
+      "Analyze human behavior from multiple perspectives"
+    ],
+    "level": "undergraduate",
+    "domain": "psychology"
+  },
+  {
+    "course_id": "PSYC201",
+    "title": "Research Methods in Psychology",
+    "description": "Scientific methods in psychological research including experimental design, data collection, and statistical analysis. Laboratory experience with research projects. Prerequisites: PSYC101, STAT200. 4 credit hours.",
+    "credits": 4,
+    "prerequisites": [
+      "PSYC101",
+      "STAT200"
+    ],
+    "learning_outcomes": [
+      "Design psychological experiments",
+      "Collect and analyze psychological data",
+      "Write research reports in APA format",
+      "Evaluate the validity of psychological studies"
+    ],
+    "level": "undergraduate",
+    "domain": "psychology"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "course_id": "CS101",
+    "title": "Introduction to Programming",
+    "description": "Fundamental programming concepts using Python. Topics include variables, control structures, functions, lists, dictionaries, and basic algorithms. Students will develop problem-solving skills and learn to write, debug, and test programs. Prerequisites: None. 3 credit hours.",
+    "credits": 3,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Write programs using Python programming language",
+      "Apply programming concepts to solve computational problems",
+      "Debug and test software programs",
+      "Understand basic data structures and algorithms"
+    ],
+    "level": "undergraduate",
+    "domain": "computer_science"
+  },
+  {
+    "course_id": "CS102",
+    "title": "Data Structures and Algorithms",
+    "description": "Study of fundamental data structures including arrays, linked lists, stacks, queues, trees, and hash tables. Analysis of algorithm complexity and design techniques. Implementation in Java. Prerequisites: CS101. 4 credit hours.",
+    "credits": 4,
+    "prerequisites": [
+      "CS101"
+    ],
+    "learning_outcomes": [
+      "Implement fundamental data structures",
+      "Analyze algorithm time and space complexity",
+      "Design efficient algorithms for common problems",
+      "Choose appropriate data structures for specific applications"
+    ],
+    "level": "undergraduate",
+    "domain": "computer_science"
+  },
+  {
+    "course_id": "CS301",
+    "title": "Database Systems",
+    "description": "Design and implementation of database systems. Relational model, SQL, normalization, transactions, and concurrent access. Introduction to NoSQL databases and distributed systems. Prerequisites: CS102. 3 credit hours.",
+    "credits": 3,
+    "prerequisites": [
+      "CS102"
+    ],
+    "learning_outcomes": [
+      "Design relational database schemas",
+      "Write complex SQL queries",
+      "Understand database normalization principles",
+      "Implement database applications"
+    ],
+    "level": "undergraduate",
+    "domain": "computer_science"
+  },
+  {
+    "course_id": "CS401",
+    "title": "Machine Learning",
+    "description": "Introduction to machine learning algorithms and applications. Supervised and unsupervised learning, neural networks, deep learning, and model evaluation. Hands-on projects using Python and scikit-learn. Prerequisites: CS102, MATH201, STAT200. 4 credit hours.",
+    "credits": 4,
+    "prerequisites": [
+      "CS102",
+      "MATH201",
+      "STAT200"
+    ],
+    "learning_outcomes": [
+      "Apply machine learning algorithms to real-world problems",
+      "Evaluate and compare different learning models",
+      "Implement neural networks and deep learning systems",
+      "Understand statistical foundations of machine learning"
+    ],
+    "level": "undergraduate",
+    "domain": "computer_science"
+  }
+]

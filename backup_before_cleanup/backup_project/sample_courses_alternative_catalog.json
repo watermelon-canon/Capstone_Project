@@ -1,0 +1,49 @@
+[
+  {
+    "course_id": "COMP110",
+    "title": "Programming Fundamentals",
+    "description": "Introduction to computer programming using Python. Covers basic programming concepts including variables, loops, conditionals, functions, and simple data structures. Problem-solving techniques and algorithm development. No prerequisites. 3 credit hours.",
+    "credits": 3,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Develop programs using Python programming language",
+      "Understand fundamental programming concepts",
+      "Apply problem-solving techniques to programming challenges",
+      "Debug and test computer programs effectively"
+    ],
+    "level": "undergraduate",
+    "domain": "computer_science"
+  },
+  {
+    "course_id": "MATH150",
+    "title": "Calculus with Applications",
+    "description": "Single-variable calculus with emphasis on applications to business and life sciences. Derivatives, optimization, integration, and elementary differential equations. Prerequisites: College algebra or equivalent. 4 credit hours.",
+    "credits": 4,
+    "prerequisites": [
+      "MATH101"
+    ],
+    "learning_outcomes": [
+      "Compute derivatives and integrals of functions",
+      "Solve optimization problems in applied contexts",
+      "Apply calculus to business and scientific problems",
+      "Model real-world situations using calculus concepts"
+    ],
+    "level": "undergraduate",
+    "domain": "mathematics"
+  },
+  {
+    "course_id": "MGMT101",
+    "title": "Foundations of Business",
+    "description": "Survey of business fundamentals including organizational behavior, marketing strategies, financial management, and operations. Exploration of contemporary business challenges and opportunities. No prerequisites. 3 credit hours.",
+    "credits": 3,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Analyze contemporary business practices",
+      "Understand organizational structures and management",
+      "Evaluate marketing and financial strategies",
+      "Assess business opportunities and challenges"
+    ],
+    "level": "undergraduate",
+    "domain": "business"
+  }
+]

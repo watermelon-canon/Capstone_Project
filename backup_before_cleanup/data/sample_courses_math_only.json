@@ -1,0 +1,51 @@
+[
+  {
+    "course_id": "MATH101",
+    "title": "College Algebra",
+    "description": "Review of algebraic concepts including polynomials, rational functions, exponential and logarithmic functions. Systems of equations and inequalities. Prerequisite: High school algebra or placement test. 3 credit hours.",
+    "credits": 3,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Solve polynomial and rational equations",
+      "Work with exponential and logarithmic functions",
+      "Solve systems of linear equations",
+      "Apply algebraic concepts to word problems"
+    ],
+    "level": "undergraduate",
+    "domain": "mathematics"
+  },
+  {
+    "course_id": "MATH201",
+    "title": "Calculus I",
+    "description": "Differential calculus of functions of one variable. Limits, continuity, derivatives, and applications including optimization and related rates. Introduction to integration. Prerequisites: MATH101 or equivalent. 4 credit hours.",
+    "credits": 4,
+    "prerequisites": [
+      "MATH101"
+    ],
+    "learning_outcomes": [
+      "Calculate limits and determine continuity",
+      "Compute derivatives using various techniques",
+      "Apply derivatives to solve optimization problems",
+      "Understand the relationship between derivatives and integrals"
+    ],
+    "level": "undergraduate",
+    "domain": "mathematics"
+  },
+  {
+    "course_id": "MATH202",
+    "title": "Calculus II",
+    "description": "Integral calculus and infinite series. Techniques of integration, applications of integrals, parametric equations, polar coordinates, and convergence tests for series. Prerequisites: MATH201. 4 credit hours.",
+    "credits": 4,
+    "prerequisites": [
+      "MATH201"
+    ],
+    "learning_outcomes": [
+      "Master various techniques of integration",
+      "Apply integrals to solve geometric and physical problems",
+      "Work with parametric and polar coordinate systems",
+      "Analyze convergence of infinite series"
+    ],
+    "level": "undergraduate",
+    "domain": "mathematics"
+  }
+]
