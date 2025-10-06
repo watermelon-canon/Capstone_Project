@@ -1,0 +1,376 @@
+{
+  "courses": [
+    {
+      "course_id": "NSU-CS101",
+      "institution": "Northshore University",
+      "title": "Introduction to Computer Science",
+      "description": "Course ID: NSU-CS101. An overview of computing concepts, programming fundamentals using Python, and problem-solving strategies. Students will be able to write basic programs and explain core computer architecture.",
+      "credits": 3,
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Students will design algorithms for simple problems",
+        "Students will implement programs using control structures"
+      ]
+    },
+    {
+      "course_id": "NSU-CS201",
+      "institution": "Northshore University",
+      "title": "Data Structures",
+      "description": "Explores linear and non-linear data structures, complexity analysis, and memory management. Prerequisites: NSU-CS101. Outcomes: design efficient data representations.",
+      "credits": 4,
+      "prerequisites": ["NSU-CS101"],
+      "learning_outcomes": [
+        "Implement linked lists, stacks, queues, and trees",
+        "Analyse algorithmic complexity for data operations"
+      ]
+    },
+    {
+      "course_id": "NSU-CS301",
+      "institution": "Northshore University",
+      "title": "Database Systems",
+      "description": "Covers relational databases, SQL, transactions, and normalization. Students will be able to model data requirements and implement secure database solutions.",
+      "credits": 3,
+      "prerequisites": ["NSU-CS201"],
+      "learning_outcomes": [
+        "Design relational schemas and apply normalization",
+        "Develop SQL queries for CRUD operations"
+      ]
+    },
+    {
+      "course_id": "NSU-DS210",
+      "institution": "Northshore University",
+      "title": "Introduction to Data Science",
+      "description": "Introduces data wrangling, exploratory analysis, and statistical inference using Python and pandas. Students will be able to build basic predictive models.",
+      "credits": 3,
+      "prerequisites": ["NSU-CS101", "NSU-MATH120"],
+      "learning_outcomes": [
+        "Clean and visualise datasets using pandas",
+        "Apply regression for simple predictive tasks"
+      ]
+    },
+    {
+      "course_id": "NSU-MATH120",
+      "institution": "Northshore University",
+      "title": "Calculus I",
+      "description": "Differential calculus covering limits, derivatives, and applications to optimisation.",
+      "credits": 4,
+      "prerequisites": ["NSU-MATH090"],
+      "learning_outcomes": [
+        "Evaluate limits and derivatives",
+        "Apply differentiation to optimisation problems"
+      ]
+    },
+    {
+      "course_id": "NSU-MATH220",
+      "institution": "Northshore University",
+      "title": "Linear Algebra",
+      "description": "Vectors, matrices, linear transformations, eigenvalues, and applications to data analysis.",
+      "credits": 3,
+      "prerequisites": ["NSU-MATH120"],
+      "learning_outcomes": [
+        "Solve linear systems using matrix methods",
+        "Interpret eigenvalues in applied contexts"
+      ]
+    },
+    {
+      "course_id": "NSU-STAT230",
+      "institution": "Northshore University",
+      "title": "Applied Statistics",
+      "description": "Covers probability distributions, estimation, hypothesis testing, and ANOVA with statistical software.",
+      "credits": 3,
+      "prerequisites": ["NSU-MATH120"],
+      "learning_outcomes": [
+        "Conduct hypothesis tests and interpret p-values",
+        "Design experiments and analyse variance"
+      ]
+    },
+    {
+      "course_id": "NSU-ENG150",
+      "institution": "Northshore University",
+      "title": "Academic Writing",
+      "description": "Focuses on research-driven essays, citation methods, and persuasive communication skills.",
+      "credits": 3,
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Compose structured academic essays",
+        "Integrate sources using correct citation formats"
+      ]
+    },
+    {
+      "course_id": "NSU-BUS210",
+      "institution": "Northshore University",
+      "title": "Principles of Management",
+      "description": "Examines planning, organising, leading, and controlling within organisations, including ethical decision-making.",
+      "credits": 3,
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Describe core management functions",
+        "Apply ethical frameworks to managerial decisions"
+      ]
+    },
+    {
+      "course_id": "NSU-ENG240",
+      "institution": "Northshore University",
+      "title": "Technical Communication",
+      "description": "Prepares students to produce technical reports, data visualisations, and user documentation.",
+      "credits": 3,
+      "prerequisites": ["NSU-ENG150"],
+      "learning_outcomes": [
+        "Create concise technical reports",
+        "Develop audience-appropriate documentation"
+      ]
+    },
+    {
+      "course_id": "WTC-CS115",
+      "institution": "Western Tech College",
+      "title": "Programming Fundamentals",
+      "description": "Introduces structured programming using Java, problem decomposition, and debugging. Students will build small console applications.",
+      "credits": 3,
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Write programs using variables and control flow",
+        "Debug simple programming errors"
+      ]
+    },
+    {
+      "course_id": "WTC-CS220",
+      "institution": "Western Tech College",
+      "title": "Object-Oriented Programming",
+      "description": "Covers classes, inheritance, interfaces, and testing patterns. Prerequisites: WTC-CS115.",
+      "credits": 3,
+      "prerequisites": ["WTC-CS115"],
+      "learning_outcomes": [
+        "Design class hierarchies for reusable software",
+        "Implement unit tests for object-oriented code"
+      ]
+    },
+    {
+      "course_id": "WTC-CS310",
+      "institution": "Western Tech College",
+      "title": "Advanced Data Structures",
+      "description": "Explores graphs, heaps, hash tables, and algorithm analysis with emphasis on performance tuning.",
+      "credits": 4,
+      "prerequisites": ["WTC-CS220"],
+      "learning_outcomes": [
+        "Implement graph search algorithms",
+        "Optimise data structures for specific workloads"
+      ]
+    },
+    {
+      "course_id": "WTC-IT330",
+      "institution": "Western Tech College",
+      "title": "Cloud Infrastructure",
+      "description": "Study of cloud platforms, container orchestration, and infrastructure automation. Students deploy scalable services.",
+      "credits": 3,
+      "prerequisites": ["WTC-CS220"],
+      "learning_outcomes": [
+        "Configure container-based deployments",
+        "Evaluate cloud architectures for reliability"
+      ]
+    },
+    {
+      "course_id": "WTC-MATH210",
+      "institution": "Western Tech College",
+      "title": "Applied Calculus",
+      "description": "Covers single-variable calculus with emphasis on engineering applications and modelling.",
+      "credits": 4,
+      "prerequisites": ["WTC-MATH100"],
+      "learning_outcomes": [
+        "Differentiate and integrate common functions",
+        "Model real-world systems using calculus"
+      ]
+    },
+    {
+      "course_id": "WTC-MATH250",
+      "institution": "Western Tech College",
+      "title": "Discrete Mathematics",
+      "description": "Logic, combinatorics, graph theory, and discrete probability with applications to computing.",
+      "credits": 3,
+      "prerequisites": ["WTC-CS115"],
+      "learning_outcomes": [
+        "Apply propositional logic to circuit design",
+        "Use combinatorics to solve counting problems"
+      ]
+    },
+    {
+      "course_id": "WTC-STAT205",
+      "institution": "Western Tech College",
+      "title": "Statistics for Engineers",
+      "description": "Probability, estimation, regression, and design of experiments with statistical software.",
+      "credits": 3,
+      "prerequisites": ["WTC-MATH210"],
+      "learning_outcomes": [
+        "Construct confidence intervals for engineering data",
+        "Develop regression models and assess fit"
+      ]
+    },
+    {
+      "course_id": "WTC-BUS240",
+      "institution": "Western Tech College",
+      "title": "Project Management",
+      "description": "Introduces project life cycles, scheduling, risk management, and stakeholder communication using industry tools.",
+      "credits": 3,
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Create project schedules with critical path methods",
+        "Mitigate project risks using standard frameworks"
+      ]
+    },
+    {
+      "course_id": "WTC-ENG210",
+      "institution": "Western Tech College",
+      "title": "Professional Communication",
+      "description": "Covers technical reports, presentations, and collaborative writing for technical teams.",
+      "credits": 3,
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Deliver persuasive technical presentations",
+        "Collaborate on documentation using revision control"
+      ]
+    },
+    {
+      "course_id": "WTC-UX320",
+      "institution": "Western Tech College",
+      "title": "User Experience Design",
+      "description": "Focuses on user research, prototyping, usability testing, and inclusive design principles.",
+      "credits": 3,
+      "prerequisites": ["WTC-ENG210"],
+      "learning_outcomes": [
+        "Conduct usability tests and interpret findings",
+        "Design prototypes that address user needs"
+      ]
+    },
+    {
+      "course_id": "MCI-CS140",
+      "institution": "Metro City Institute",
+      "title": "Foundations of Programming",
+      "description": "An intensive introduction to programming concepts using Python with emphasis on problem solving and collaboration.",
+      "credits": 4,
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Develop programs using functions and data structures",
+        "Apply debugging strategies in collaborative projects"
+      ]
+    },
+    {
+      "course_id": "MCI-CS260",
+      "institution": "Metro City Institute",
+      "title": "Software Engineering",
+      "description": "Covers software development life cycle, agile methodologies, version control, and quality assurance.",
+      "credits": 3,
+      "prerequisites": ["MCI-CS140"],
+      "learning_outcomes": [
+        "Plan iterative software projects",
+        "Implement testing strategies for reliability"
+      ]
+    },
+    {
+      "course_id": "MCI-DS340",
+      "institution": "Metro City Institute",
+      "title": "Machine Learning",
+      "description": "Supervised and unsupervised learning, model evaluation, and deployment considerations using Python and scikit-learn.",
+      "credits": 3,
+      "prerequisites": ["MCI-CS140", "MCI-MATH210"],
+      "learning_outcomes": [
+        "Train classification and regression models",
+        "Evaluate model performance using cross-validation"
+      ]
+    },
+    {
+      "course_id": "MCI-MATH210",
+      "institution": "Metro City Institute",
+      "title": "Multivariable Calculus",
+      "description": "Extends calculus to multiple dimensions, covering gradients, divergence, and optimisation.",
+      "credits": 4,
+      "prerequisites": ["MCI-MATH150"],
+      "learning_outcomes": [
+        "Compute gradients and directional derivatives",
+        "Optimise multivariate functions with constraints"
+      ]
+    },
+    {
+      "course_id": "MCI-MATH150",
+      "institution": "Metro City Institute",
+      "title": "Precalculus",
+      "description": "Functions, trigonometry, and analytic geometry preparing students for calculus.",
+      "credits": 3,
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Analyse polynomial and trigonometric functions",
+        "Solve systems using algebraic techniques"
+      ]
+    },
+    {
+      "course_id": "MCI-STAT310",
+      "institution": "Metro City Institute",
+      "title": "Data Analytics",
+      "description": "Explores statistical analysis, data visualisation, and storytelling using modern BI tools.",
+      "credits": 3,
+      "prerequisites": ["MCI-MATH150"],
+      "learning_outcomes": [
+        "Create interactive dashboards for stakeholders",
+        "Translate analytic results into business insights"
+      ]
+    },
+    {
+      "course_id": "MCI-BUS215",
+      "institution": "Metro City Institute",
+      "title": "Entrepreneurship",
+      "description": "Opportunity recognition, business model development, and startup financing fundamentals.",
+      "credits": 3,
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Develop business model canvases",
+        "Prepare financial projections for ventures"
+      ]
+    },
+    {
+      "course_id": "MCI-ENG205",
+      "institution": "Metro City Institute",
+      "title": "Business Communication",
+      "description": "Emphasises professional writing, presentations, and digital communication strategies.",
+      "credits": 3,
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Craft persuasive business proposals",
+        "Deliver executive-level presentations"
+      ]
+    },
+    {
+      "course_id": "MCI-UX350",
+      "institution": "Metro City Institute",
+      "title": "Interaction Design",
+      "description": "User research methods, prototyping, accessibility, and evaluation metrics for interactive systems.",
+      "credits": 3,
+      "prerequisites": ["MCI-ENG205"],
+      "learning_outcomes": [
+        "Develop prototypes that meet accessibility standards",
+        "Apply research insights to design iterations"
+      ]
+    },
+    {
+      "course_id": "MCI-IT360",
+      "institution": "Metro City Institute",
+      "title": "Cybersecurity Principles",
+      "description": "Network security, threat assessment, cryptography basics, and incident response planning.",
+      "credits": 3,
+      "prerequisites": ["MCI-CS140"],
+      "learning_outcomes": [
+        "Evaluate network vulnerabilities",
+        "Design incident response playbooks"
+      ]
+    },
+    {
+      "course_id": "MCI-HUM210",
+      "institution": "Metro City Institute",
+      "title": "Global Ethics",
+      "description": "Examines ethical theories, cultural perspectives, and real-world case studies on global challenges.",
+      "credits": 3,
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Compare major ethical frameworks",
+        "Apply ethical reasoning to contemporary issues"
+      ]
+    }
+  ]
+}
